@@ -1,0 +1,163 @@
+*{
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 15px;
+}
+
+
+/* nav bar */
+.chosen {
+    font-weight: bold;
+    border-style: solid;
+    padding: 5px;
+}
+header{
+    z-index: 1;
+}
+nav{
+    height: 400px;
+    margin: 0 0 0 0;
+    position: fixed;
+    background-color: #ddf3ff;
+    width: 286.433px;
+    height: 100%;
+}
+
+nav ul{
+    height: 400px;
+    margin: 0 0 0 0;
+    padding-top: 300px;
+}
+nav li{
+    list-style: none;
+    margin: 10px;
+    text-align: center;
+}
+
+a{
+  color: black;
+}
+
+a:hover{
+    color: gray;
+}
+
+.main img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    max-width:600px;
+    margin-top: 50px;
+    padding-left: 160px;
+}
+
+.source{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-right:270px;
+}
+
+figcaption{
+    font: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 10px;
+    margin-top: none;
+}
+
+cite{
+    font: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 10px;
+    margin-top: none;
+}
+
+body{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   margin: 0 0 0 0;
+}
+
+header{
+    padding: 1px 0 35px 0;
+    flex-grow: 1;
+    justify-content: center;
+    background-color: #ddf3ff;
+}
+
+.index{
+    flex-grow: 3;
+    min-width: 1000px;
+    height: 100%;
+}
+
+.index img{
+    width: 1080px;
+    padding-left: 285px;
+    max-height: 60%;
+    opacity: .8;
+}
+
+.right{
+    padding-left: 283px;
+    padding-right: 20px;
+    padding-top: 11px;
+    text-align: right;
+}
+
+.main{
+    flex-grow: 3;
+    margin-top: 50px;
+}
+
+.page-title{
+    position: absolute;
+    top: 75%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    color: black;
+    font-size: 70px;
+    opacity: 0.65;
+    z-index: 1;
+}
+
+#top-button{
+    text-align: center;
+    border: solid;
+    width: 30px;
+    position: absolute;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 20px;
+    padding: 5px 9px 5px 9px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.form_error {
+    color: red;
+}
+
+fieldset{
+    margin: 100px;
+    margin-left: 240px;
+    margin-top: 200px;
+}
+
+#confirmation{
+    margin-left: 100px;
+}
+
+#footer{
+    background-color: cornsilk;
+    text-align: center;
+    border: solid;
+    border-color: cornsilk;
+    padding-left: 150px;
+    height:60px;
+    padding-top:10px;
+}
